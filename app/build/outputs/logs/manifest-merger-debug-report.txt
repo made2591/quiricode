@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:1:1-42:12
+	package
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:2:5-35
+		INJECTED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:8:2-75
+	android:name
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:8:19-73
+uses-permission#com.google.android.glass.permission.DEVELOPMENT
+ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:9:2-84
+	android:name
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:9:19-81
+uses-sdk
+ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:12:5-14:41
+	android:targetSdkVersion
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:14:9-38
+		INJECTED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:13:9-35
+		INJECTED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:16:5-40:19
+	android:label
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:19:9-41
+	android:allowBackup
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:18:9-45
+activity#ge.aviation.avioaero.ScanActivity
+ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:20:9-24:20
+	android:enabled
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:23:13-35
+	android:label
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:22:13-45
+	android:name
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:21:13-61
+service#ge.aviation.avioaero.MainService
+ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:25:9-39:19
+	android:enabled
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:27:13-35
+	android:label
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:30:13-45
+	android:exported
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:28:13-36
+	android:icon
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:26:13-60
+intent-filter#android.intent.action.MAIN+com.google.android.glass.action.VOICE_TRIGGER
+ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:31:13-34:29
+action#android.intent.action.MAIN
+ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:32:25-66
+action#com.google.android.glass.action.VOICE_TRIGGER
+ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:33:17-88
+	android:name
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:33:25-85
+meta-data#com.google.android.glass.VoiceTrigger
+ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:36:13-38:63
+	android:resource
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:38:17-60
+	android:name
+		ADDED from /Users/matteo/AndroidStudioProjects/QUIRICode/app/src/main/AndroidManifest.xml:37:17-69
